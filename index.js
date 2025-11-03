@@ -1,15 +1,3 @@
-/**
- * Discord Bypass Bot - Full (Guild-only)
- * - /bypass -> embed + Contact Jojo / WhoisNda
- * - ephemeral show rekening -> "Saya sudah transfer" -> modal
- * - DM moderator with Done/Cancel/Error buttons
- * - post status to CHANNEL_LOG_ID and DM the user
- * - simple history saved to history.json
- *
- * SET Replit Secrets:
- * TOKEN, CLIENT_ID, GUILD_ID, MOD1_ID, MOD2_ID, CHANNEL_LOG_ID
- */
-
 const fs = require('fs');
 const path = require('path');
 const {
